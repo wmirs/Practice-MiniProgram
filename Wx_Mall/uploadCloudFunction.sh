@@ -1,0 +1,1 @@
+"/Applications/wechatwebdevtools.app/Contents/MacOS/cli" cloud functions deploy --e cloud1-4gvr0npl65b2bbe7 --n quickstartFunctions --r --project "/Users/bytedance/Repositories/Practice/Practice-MiniProgram/Wx_Mall" --report_first --report

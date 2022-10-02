@@ -1,0 +1,24 @@
+<view class="tabbar">
+  <view id="1" class="tabbox  {{menuID==1?'curtab':''}}" bindtap="menuClick">
+      <view class="tabico ico-recom {{menuID==1?'cur-recom':''}} "></view>
+      <text  class="tabtit  {{menuID==1?'curtit':''}} ">今日推荐</text>
+  </view>
+  <view id="2" class="tabbox {{menuID==2?'curtab':''}}" bindtap="menuClick">
+      <view  class="tabico ico-baby {{menuID==2?'cur-baby':''}}"></view>
+      <text class="tabtit  {{menuID==2?'curtit':''}}">时尚美妆</text>
+  </view>
+  <view id="3" class="tabbox {{menuID==3?'curtab':''}}" bindtap="menuClick">
+      <view class="tabico ico-new {{menuID==3?'cur-new':''}}">
+          <view class="point-tip "></view>
+      </view>
+      <text class="tabtit  {{menuID==3?'curtit':''}}">数码电器</text>
+  </view>
+  <view id="4" class="tabbox {{menuID==4?'curtab':''}}" bindtap="menuClick">
+      <view class="tabico ico-discount {{menuID==4?'cur-discount':''}}"></view>
+      <text class="tabtit {{menuID==4?'curtit':''}}">个护清洁</text>
+  </view>
+  <view id="5" class="tabbox {{menuID==5?'curtab':''}}" bindtap="menuClick">
+      <view class="tabico ico-notice {{menuID==5?'cur-notice':''}}"></view>
+      <text class="tabtit {{menuID==5?'curtit':''}}">数码电器</text>
+  </view>
+</view>

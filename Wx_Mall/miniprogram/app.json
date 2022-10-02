@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/class/index",
+    "pages/cart/index",
+    "pages/center/index"
+  ],
+  "tabBar": {
+    "color": "#7c7c7c",
+    "selectedColor": "#f7545f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabbar/home.png",
+        "selectedIconPath": "images/tabbar/curhome.png",
+        "text": "首页"
+    },
+    {
+        "pagePath": "pages/class/index",
+        "iconPath": "images/tabbar/class.png",
+        "selectedIconPath": "images/tabbar/curclass.png",
+        "text": "分类"
+    },
+    {
+        "pagePath": "pages/cart/index",
+        "iconPath": "images/tabbar/cart.png",
+        "selectedIconPath": "images/tabbar/curcart.png",
+        "text": "购物车"
+    },
+    {
+        "pagePath": "pages/center/index",
+        "iconPath": "images/tabbar/person.png",
+        "selectedIconPath": "images/tabbar/curperson.png",
+        "text": "个人"
+    }
+    ]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "小程序书籍Demo商城",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
