@@ -1,0 +1,4 @@
+<view>
+  手机号码支持长按选中:
+  <text user-select="true">18515587287</text>
+</view>

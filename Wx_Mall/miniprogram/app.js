@@ -1,6 +1,6 @@
 // app.js
 App({
-  onLaunch: function () {
+  onLaunch: function (options) {
     if (!wx.cloud) {
       console.error('请使用 2.2.3 或以上的基础库以使用云能力');
     } else {
@@ -13,7 +13,10 @@ App({
         traceUser: true,
       });
     }
-
     this.globalData = {};
+    console.log("onShow 场景值: ", options.scene)
+  },
+  onShow: function() {
+    console.log("onShow 场景值: ", wx.getLaunchOptionsSync().scene)
   }
 });
