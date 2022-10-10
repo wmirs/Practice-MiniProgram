@@ -1,4 +1,24 @@
 <view>
-  手机号码支持长按选中:
-  <text user-select="true">18515587287</text>
+  <view>
+    手机号码支持长按选中: <text user-select="true">18515587287</text>
+  </view>
+  <view>
+    <button type="default">默认按钮</button>
+    <button type="primary">绿色按钮</button>
+    <button type="warn">红色按钮</button>
+  </view>
+  <view>
+    <button type="default" size="mini">默认按钮</button>
+    <button type="primary" size="mini">绿色按钮</button>
+    <button type="warn" size="mini">红色按钮</button>
+  </view>
+  <view>
+    <button type="default" size="mini" plain="true">默认按钮</button>
+    <button type="primary" size="mini" plain="true">绿色按钮</button>
+    <button type="warn" size="mini" plain="true">红色按钮</button>
+  </view>
+  <view>
+    <image></image>
+    <image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.dtstatic.com%2Fuploads%2Fblog%2F202010%2F06%2F20201006130538_eecaa.thumb.1000_0.jpg&refer=http%3A%2F%2Fc-ssl.dtstatic.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1667971942&t=3addd676d86c43cf685848edc0790402" mode="aspectFit"></image>
+  </view>
 </view>

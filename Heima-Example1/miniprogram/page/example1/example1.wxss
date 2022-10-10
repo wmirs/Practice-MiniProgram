@@ -1,1 +1,3 @@
-/* page/example1/example1.wxss */
+image {
+  border: 1px red solid;
+}
