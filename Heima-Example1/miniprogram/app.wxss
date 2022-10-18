@@ -1,5 +1,11 @@
 @import "./page/common/lib/weui.wxss";
 
+view {
+  padding: 10rpx;
+  margin: 10rpx;
+  background-color: lightblue;
+  border: 1px solid red;
+}
 
 /* reset */
 page {

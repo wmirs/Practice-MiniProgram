@@ -1,5 +1,6 @@
 {
   "pages": [
+    "page/example/day2/e1",
     "page/example1/example1",
     "page/list/list",
     "page/component/index",

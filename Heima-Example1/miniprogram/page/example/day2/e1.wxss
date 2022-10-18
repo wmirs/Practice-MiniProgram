@@ -1,0 +1,9 @@
+/* page/example/day2/e1.wxss */
+input {
+  border: 1px solid green;
+  margin: 5px;
+  padding: 2px 5px 2px 5px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+}

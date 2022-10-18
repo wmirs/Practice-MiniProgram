@@ -1,0 +1,31 @@
+<view>
+  <view>
+    <text>{{info}}</text>
+  </view>
+  <view>
+    <image src="{{iamgeUrl}}" mode="aspectFit"></image>
+  </view>
+  <view>
+    <text>randomNum = {{randomNum}}, {{randomNum >= 5 ? "GTE 5" : "LT 5"}}</text>
+  </view>
+  <view>
+    <button type="primary" bindtap="btnTapHandler">测试按钮</button>
+  </view>
+  <view>
+    <text>Count: {{count}}</text>
+    <button type="primary" bindtap="increaseCount">Count + 1</button>
+    <button type="primary" bindtap="decreaseCount">Count - 1</button>
+  </view>
+
+  <view>
+    <input value="{{msg}}" bindinput="showInputHandler" />
+  </view>
+  
+  <view wx:if="{{type == 1}}">男</view>
+  <view wx:elif="{{type == 2}}">女</view>
+  <view wx:else>保密</view>
+
+  <view wx:for="{{arr1}}" wx:for-index="idx" wx:for-item="itemName">
+    索引: {{idx}}, 值: {{itemName}}
+  </view>
+</view>
