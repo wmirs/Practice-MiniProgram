@@ -2,14 +2,13 @@
     "pages": [
       "pages/home/home",
       "pages/message/message",
-      "pages/contact/contact",
-      "pages/index/index"
+      "pages/contact/contact"
     ],
     "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#fff",
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#2b4b6b",
         "navigationBarTitleText": "本地生活",
-        "navigationBarTextStyle": "black"
+        "navigationBarTextStyle": "white"
     },
     "tabBar": {
       "list": [
