@@ -4,3 +4,9 @@
 <view>
   <button bindtap="back">回到上一页</button>
 </view>
+<view>
+  <text>Count Value: {{count}}</text>
+  <button bindtap="increCount">+1</button>
+</view>
+<view class="box">
+</view>

@@ -1,6 +1,12 @@
 view {
-  margin: 10px;
+  margin: 10rpx;
 }
 navigator {
   color: blue;
+}
+.box {
+  width: 200rpx;
+  height: 1800rpx;
+  background-color: blue;
+  margin: 0 auto;
 }

@@ -1,31 +1,44 @@
-// pages/info/info.js
+// pages/reachbottom/reachbottom.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    info: {},
-    count: 0
+    colors: [],
+    isloading: false
   },
 
-  back() {
-    wx.navigateBack({
-      delta: 1
+  getColors() {
+    wx.showLoading({
+      title: '数据加载中...',
     })
-  },
-  increCount() {
     this.setData({
-      count: this.data.count + 1
+      isloading: true
+    })
+    wx.request({
+      url: 'https://www.escook.cn/api/color',
+      method: 'GET',
+      success: ({data: res}) => {
+        console.log(res)
+        this.setData({
+          colors: [...this.data.colors, ...res.data]
+        })
+      },
+      complete: () => {
+        wx.hideLoading()
+        this.setData({
+          isloading: false
+        })
+      }
     })
   },
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    this.setData({
-      info: options
-    })
+    this.getColors()
   },
 
   /**
@@ -60,22 +73,16 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh() {
-    console.log("监听用户下拉动作")
-    this.setData({
-      count: 0
-    })
-    wx.stopPullDownRefresh({
-      success: (res) => {
-        console.log("Success 停止下拉刷新效果")
-      },
-    })
+
   },
 
   /**
    * 页面上拉触底事件的处理函数
    */
   onReachBottom() {
-    console.log("触发了上拉触底事件")
+    if(!this.data.isloading) {
+      this.getColors()
+    }
   },
 
   /**

@@ -1,0 +1,15 @@
+view {
+  margin: 10px 20px;
+}
+navigator {
+  color: blue;
+}
+
+.colorItem {
+  height: 100px;
+  text-align: center;
+  margin: 0;
+  line-height: 100px;
+  border-radius: 10px;
+  border: 1px solid black;
+}

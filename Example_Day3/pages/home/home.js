@@ -14,6 +14,16 @@ Page({
 
     })
   },
+  navigator2Info(){
+    wx.navigateTo({
+      url: '/pages/info/info?name=remilia&age=500',
+    })
+  },
+  navigator2reachbottom() {
+    wx.navigateTo({
+      url: '/pages/reachbottom/reachbottom',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

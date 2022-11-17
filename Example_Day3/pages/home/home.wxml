@@ -11,5 +11,9 @@
   <text class="h1Title">编程式导航</text>
   <view>
     <button bindtap="switchToContact">跳转到联系我们tabBar页</button>
+    <button bindtap="navigator2Info">跳转到Info页</button>
   </view>
+</view>
+<view>
+  <button bindtap="navigator2reachbottom">下拉触底案例</button>
 </view>

@@ -1,0 +1,7 @@
+<view>
+  <navigator url="/pages/home/home" open-type="switchTab">回到首页</navigator>
+</view>
+
+<view>
+  <view wx:for="{{colors}}" wx:key="index" class="colorItem" style="background-color: rgb({{item}});">rgb({{item}})</view>
+</view>
