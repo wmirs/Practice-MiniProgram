@@ -1,0 +1,6 @@
+view {
+  margin: 10px;
+}
+navigator {
+  color: blue;
+}

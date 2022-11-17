@@ -1,0 +1,3 @@
+<view>
+  跳转到<navigator url="/pages/info/info" open-type="navigate">info</navigator>页
+</view>

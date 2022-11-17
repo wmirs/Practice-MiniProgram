@@ -3,3 +3,21 @@
     <image src="{{item.image}}"></image>
   </swiper-item>
 </swiper>
+
+<view class="grid-list">
+  <view class="grid-item" wx:for="{{gridList}}" wx:key="id">
+    <view>
+      <view>
+        <image src="{{item.icon}}"></image>
+      </view>
+      <view>
+        <text>{{item.name}}</text>
+      </view>      
+    </view>
+  </view>
+</view>
+
+<view class="img-view">
+  <image src="/images/img-link01.png" mode="widthFix"></image>
+  <image src="/images/img-link02.png" mode="widthFix"></image>
+</view>

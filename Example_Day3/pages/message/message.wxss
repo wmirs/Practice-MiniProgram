@@ -1,0 +1,8 @@
+view {
+  margin: 10px;
+}
+navigator {
+  color: blue;
+  display: inline;
+  font-weight: bolder;
+}

@@ -1,0 +1,15 @@
+<view>
+  <text class="h1Title">声明式导航</text>
+  <view>
+    1. 跳转到<navigator url="/pages/message/message" open-type="switchTab">消息tabBar</navigator>导航页
+  </view>
+  <view>
+    2. 跳转到<navigator url="/pages/info/info" open-type="navigate">info</navigator>页
+  </view>
+</view>
+<view>
+  <text class="h1Title">编程式导航</text>
+  <view>
+    <button bindtap="switchToContact">跳转到联系我们tabBar页</button>
+  </view>
+</view>

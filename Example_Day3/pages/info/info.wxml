@@ -1,0 +1,6 @@
+<view>
+  <navigator open-type="navigateBack" delta="1">回到上一页</navigator>
+</view>
+<view>
+  <button bindtap="back">回到上一页</button>
+</view>

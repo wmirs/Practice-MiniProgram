@@ -1,0 +1,12 @@
+view {
+  margin: 10rpx;
+}
+navigator {
+  color: blue;
+  font-weight: bolder;
+  display: inline;
+}
+.h1Title {
+  font-size: 40rpx;
+  font-weight: bolder;
+}
